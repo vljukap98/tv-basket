@@ -1,13 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./misc/TvBasketBackground.svg");
+  font-family: "Poppins", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.navbar .links {
+  color: #6320ee;
+}
+
+.title {
+  border-bottom: 2px solid #6320ee;
+}
+
+.navbar a {
+  margin-left: 150px;
+  text-decoration: none;
+  padding: 6px;
+  color: grey;
+}
+
+.navbar a:hover {
+  margin-left: 150px;
+  text-decoration: none;
+  padding: 6px;
+  color: #6320ee;
+  text-shadow: 0 0 1vw #6320ee;
+}
+
+.content {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  color: #6320ee;
+  text-shadow: 0 0 1vw #6320ee;
 }
