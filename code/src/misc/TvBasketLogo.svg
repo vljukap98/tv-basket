@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.567" height="76.209" viewBox="0 0 94.567 76.209">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.238" y1="0.085" x2="0.747" y2="0.936" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dbdbdb"/>
+      <stop offset="1" stop-color="#a8a8a8"/>
+    </linearGradient>
+  </defs>
+  <g id="logo" transform="translate(-110.378 -130.427)">
+    <g id="logo_part_2" data-name="logo part 2" transform="translate(128.185 134.72)">
+      <path id="Path_1" data-name="Path 1" d="M277.807,3679.434c4.078-9.653,6.082-12.876,10.511-13.478,5.742.328,5.578,7.054,8.148,10.663,0,0,8.662,11.509,18.045-9.679" transform="translate(-243.028 -3665.956)" fill="none" stroke="#fa6302" stroke-linecap="square" stroke-linejoin="round" stroke-width="8"/>
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="23.641" cy="23.952" rx="23.641" ry="23.952" transform="translate(0 3.582)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_2" data-name="Ellipse 2" cx="5.148" cy="5.148" r="5.148" transform="translate(18.588 8.298)" fill="#4d5766"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="4.951" cy="4.951" r="4.951" transform="translate(31.168 15.644)" fill="#4d5766"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="4.951" cy="4.951" r="4.951" transform="translate(31.168 29.943)" fill="#4d5766"/>
+      <ellipse id="Ellipse_5" data-name="Ellipse 5" cx="5.148" cy="4.862" rx="5.148" ry="4.862" transform="translate(18.588 37.182)" fill="#4d5766"/>
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="4.951" cy="4.951" r="4.951" transform="translate(6.402 29.943)" fill="#4d5766"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="4.951" cy="4.951" r="4.951" transform="translate(6.402 15.644)" fill="#4d5766"/>
+      <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(18.785 22.65)" fill="none" stroke="#4d5766" stroke-width="2">
+        <circle cx="4.951" cy="4.951" r="4.951" stroke="none"/>
+        <circle cx="4.951" cy="4.951" r="3.951" fill="none"/>
+      </g>
+    </g>
+    <g id="logo_part_1" data-name="logo part 1" transform="translate(110.378 120.22)">
+      <path id="basket_body" data-name="basket body" d="M-25.245,0H58.1L45.883,44.172H-13.03Z" transform="translate(25.245 42.244)" fill="#394256"/>
+      <g id="basket_elements" data-name="basket elements" transform="translate(0 0)">
+        <rect id="body_part_4" data-name="body part 4" width="6" height="24" rx="3" transform="translate(57.622 51.78)" fill="#a1abbe"/>
+        <rect id="body_part_3" data-name="body part 3" width="5" height="24" rx="2.5" transform="translate(45.622 51.78)" fill="#a1abbe"/>
+        <rect id="body_part_2" data-name="body part 2" width="6" height="24" rx="3" transform="translate(31.622 51.78)" fill="#a1abbe"/>
+        <rect id="body_part_1" data-name="body part 1" width="6" height="24" rx="3" transform="translate(19.622 51.78)" fill="#a1abbe"/>
+      </g>
+    </g>
+  </g>
+</svg>
