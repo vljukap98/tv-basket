@@ -17,19 +17,13 @@ body {
   color: #6320ee;
 }
 
-.title {
-  border-bottom: 2px solid #6320ee;
-}
-
 .navbar a {
-  margin-left: 150px;
   text-decoration: none;
   padding: 6px;
   color: grey;
 }
 
 .navbar a:hover {
-  margin-left: 150px;
   text-decoration: none;
   padding: 6px;
   color: #6320ee;
@@ -41,5 +35,38 @@ body {
   margin: 40px auto;
   padding: 20px;
   color: #6320ee;
-  text-shadow: 0 0 1vw #6320ee;
+}
+
+.movie-poster {
+  width: 10%;
+  height: 10%;
+}
+
+.register {
+  width: 40%;
+  background-color: #272727;
+  border-radius: 5%;
+}
+
+.input-section label {
+  color: grey;
+}
+
+.input-section input {
+  background-color: #272727;
+  border-color: grey;
+  border-radius: 25%;
+  color: white;
+}
+
+.button {
+  background-color: #6320ee;
+  color: white;
+  border-color: #6320ee;
+  border-radius: 15% 15% 15% 15%;
+}
+
+a {
+  text-decoration: none;
+  color: #6320ee;
 }
