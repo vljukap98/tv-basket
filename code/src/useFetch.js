@@ -6,12 +6,20 @@ const useFetch = (url) => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-
+        //
+        //TODO get auth-token from a cookie
+        //first we need to store cookie with backend when logged in
+        //read cookie and pass it in a header
+        //
+        const myHeader = new Headers();
+        myHeader.append('auth-token', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDUwY2Y5NWFjZmJmNjNlZDQzYzczYTgiLCJpYXQiOjE2MTU5NzgwMDh9.KmweHWuUWaOq1UBQttJFwpPzCLeQC2S-RR-juHjye-M');
         const abortCont = new AbortController();
         
-        fetch(url, { signal : abortCont.signal })
+        fetch(url, { 
+            signal : abortCont.signal,
+            headers: myHeader
+        })
         .then(res => {
-            console.log(res);
             if(!res.ok){
                 throw Error('No resource found');
 

@@ -8,7 +8,8 @@ const MovieList = ({ movies, title }) => {
                {movies.map((movie) => (
                 <div className="movie-preview" key={ movie._id }>
                         <h2> { movie.title } </h2>
-                        <p>Released: { movie.releaseDate }</p>
+                        <img className="movie-poster" src={movie.poster} alt={movie.title}></img>
+                        <p className="movie-description">{movie.description}</p>
                 </div>
             ))}
         </div>
