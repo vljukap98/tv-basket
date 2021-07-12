@@ -7,6 +7,9 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.3",
     "axios": "^0.21.1",
+    "css-select": "^4.1.3",
+    "css-what": "^5.0.1",
+    "glob-parent": "5.1.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolution": {
+    "css-what": "^ 5.0.1"
   }
 }
