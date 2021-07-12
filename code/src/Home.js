@@ -11,6 +11,7 @@ const Home = () => {
             { error && <div>{ error }</div> }
             { isPending && <div>Loading...</div> }
             { movies && <MovieList movies={ movies } title = "All movies"/> }
+            <p>This is home page, later it will show movies in card list views</p>
         </div> 
      );
 }
